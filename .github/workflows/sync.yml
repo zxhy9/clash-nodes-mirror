@@ -1,8 +1,6 @@
 name: Sync from Gitee (China speedtest)
 
 on:
-  schedule:
-    - cron: '30 17 * * *'
   workflow_dispatch:
 
 permissions:
