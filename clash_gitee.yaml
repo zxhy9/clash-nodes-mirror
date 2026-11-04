@@ -8,8 +8,13 @@ dns:
   enhanced-mode: fake-ip
   fake-ip-range: 198.18.0.1/16
   nameserver:
-  - 223.5.5.5
-  - 119.29.29.29
+  - https://doh.pub/dns-query
+  - https://dns.alidns.com/dns-query
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://dns.google/dns-query
+  proxy-server-nameserver:
+  - https://doh.pub/dns-query
 proxies:
 - alterId: 0
   cipher: auto
@@ -366,4 +371,4 @@ rules:
 - DOMAIN-SUFFIX,ave.ai,DIRECT
 - DOMAIN-SUFFIX,gmgn.ai,DIRECT
 - DOMAIN-SUFFIX,gmgn.com,DIRECT
-- MATCH,GH-Auto
+- MATCH,GH-Manual
