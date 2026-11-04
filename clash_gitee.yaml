@@ -366,4 +366,4 @@ rules:
 - DOMAIN-SUFFIX,ave.ai,DIRECT
 - DOMAIN-SUFFIX,gmgn.ai,DIRECT
 - DOMAIN-SUFFIX,gmgn.com,DIRECT
-- MATCH,GH-Manual
+- MATCH,GH-Auto
